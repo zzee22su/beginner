@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         /*
-         * 26일차 문제
+         * 26일차 문제 (https://leetcode.com/problems/shuffle-the-array/submissions/1287888823/)
          * shuffle-the-array
          */
         Day26 day26 = new Day26();
