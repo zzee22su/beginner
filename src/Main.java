@@ -21,6 +21,12 @@ public class Main {
         System.out.print("\n27일차 결과 값 : "+day27.getResult());
 
 
+        /**
+         * 28일차 문제 (https://leetcode.com/problems/find-words-containing-character/description/)
+         * find-words-containing-character
+         */
+        Day28 day28 = new Day28();
+        System.out.println("\n28일차 결과 값 : "+day28.getResultIndexList());
     }
 
 }
