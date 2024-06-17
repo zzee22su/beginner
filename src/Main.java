@@ -1,5 +1,7 @@
 import club99_0520_0628.Day26;
 import club99_0520_0628.Day27;
+import club99_0520_0628.Day28;
+import club99_0520_0628.Day29;
 
 public class Main {
 
@@ -27,6 +29,13 @@ public class Main {
          */
         Day28 day28 = new Day28();
         System.out.println("\n28일차 결과 값 : "+day28.getResultIndexList());
+
+        /**
+         * 29일차 문제 (https://leetcode.com/problems/count-items-matching-a-rule/description/)
+         * count-items-matching-a-rule
+         */
+        Day29 day29 = new Day29();
+        System.out.println("\n29일차 결과 값 : "+day29.getCount());
     }
 
 }
