@@ -1,7 +1,4 @@
-import club99_0520_0628.Day26;
-import club99_0520_0628.Day27;
-import club99_0520_0628.Day28;
-import club99_0520_0628.Day29;
+import club99_0520_0628.*;
 
 public class Main {
 
@@ -35,7 +32,14 @@ public class Main {
          * count-items-matching-a-rule
          */
         Day29 day29 = new Day29();
-        System.out.println("\n29일차 결과 값 : "+day29.getCount());
+        System.out.println("29일차 결과 값 : "+day29.getCount());
+
+        /**
+         * 30일차 문제 (https://leetcode.com/problems/shuffle-string/)
+         * shuffle-string
+         */
+        Day30 day30 = new Day30();
+        System.out.println("30일차 결과 값 : "+day30.getResultStr());
     }
 
 }
