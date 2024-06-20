@@ -40,6 +40,13 @@ public class Main {
          */
         Day30 day30 = new Day30();
         System.out.println("30일차 결과 값 : "+day30.getResultStr());
+
+        /**
+         * 32일차 문제 (https://leetcode.com/problems/neither-minimum-nor-maximum/)
+         * neither-minimum-nor-maximum
+         */
+        Day32 day32 = new Day32();
+        System.out.println("32일차 결과 값 : "+day32.getResult());
     }
 
 }
