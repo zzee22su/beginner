@@ -47,6 +47,13 @@ public class Main {
          */
         Day32 day32 = new Day32();
         System.out.println("32일차 결과 값 : "+day32.getResult());
+
+        /**
+         * 33일차 문제 (https://leetcode.com/problems/find-target-indices-after-sorting-array/)
+         * find-target-indices-after-sorting-array
+         */
+        Day33 day33 = new Day33();
+        System.out.println("33일차 결과 값 : "+day33.getResultList());
     }
 
 }
