@@ -54,6 +54,12 @@ public class Main {
          */
         Day33 day33 = new Day33();
         System.out.println("33일차 결과 값 : "+day33.getResultList());
+        /**
+         * 36일차 문제 (https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)
+         * final-prices-with-a-special-discount-in-a-shop
+         */
+        Day36 day36 = new Day36();
+        System.out.println("36일차 결과 값: "+day36.getResult());
     }
 
 }
